@@ -21,3 +21,11 @@ function Eau(parametre)
 }
 Eau("verss")
 Eau("feu et ")
+//On donne l' id de la div à getElementById
+//document englobe tout la page web
+let unDiv = document.getElementById("Un")
+console.log("info la div va soufrire !")
+console.log(unDiv.innerHTML)
+//unDiv.innerHTML = ""; pour modif les info a l'intérieur
+unDiv.classList.add("doite");//ajouter une classe
+unDiv.classList.remove("centre");
