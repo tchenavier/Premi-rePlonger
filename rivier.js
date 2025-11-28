@@ -21,6 +21,7 @@ function Eau(parametre)
 }
 Eau("verss")
 Eau("feu et ")
+// ! Le java doit bien étre aprés la création de l'élément !
 //On donne l' id de la div à getElementById
 //document englobe tout la page web
 let unDiv = document.getElementById("Un")
