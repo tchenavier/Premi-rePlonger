@@ -29,7 +29,7 @@ tab.push ("cadavre");
 tab.push(250);
 console.log("Dans la mer il y a")
 console.log(tab);
-let tabDeux = [24,"pencton",function(){"je suis une fonction";}]
+let tabDeux = [24,"plencton",function(){"je suis une fonction";}]
 console.log(tabDeux[0])
 console.log(tabDeux[2])
 tabDeux.forEach(element =>{ //pour parcourire tout le tableau
