@@ -23,7 +23,7 @@ let nombre = skellete();
 console.log("Il y a "+ nombre + " skellete !");
 aufWiedersehen();
 
-console.log("Il y aura peut être un tableu")
+console.log("Il y aura peut être un tableau")
 let tab = [];
 tab.push ("cadavre");
 tab.push(250);

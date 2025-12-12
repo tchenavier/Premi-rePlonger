@@ -1,13 +1,15 @@
-div.centre
-{
+div.centre {
     text-align: center;
 }
 
-p.Rouge
-{
-    color :red;
+p.Rouge {
+    color: red;
 }
-div.doite
-{
+
+div.doite {
     text-align: right;
+}
+
+div.sang {
+    color: rgb(192, 45, 45);
 }

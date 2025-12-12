@@ -15,9 +15,8 @@ console.log(window)
 console.log(c4)
 c4 = "Nitro"
 console.log(c4)
-function Eau(parametre)
-{
-    console.log(parametre+"eau");
+function Eau(parametre) {
+    console.log(parametre + "eau");
 }
 Eau("verss")
 Eau("feu et ")
@@ -34,4 +33,25 @@ console.log(unDiv.innerHTML)
 //unDiv.classList.add("doite");//ajouter une classe
 //unDiv.classList.remove("centre");
 //TroisDiv.innerHTML.add("doite");
-TroisDiv.innerHTML = "";
+//var divClick1 = document.getElementById("Click1");
+var divOndrag1 = document.getElementById("ondrag1");
+//divClick1.Onclick = function (event) {
+//    alert("tempéte de sang");
+//}
+divOndrag1.ondrag = function (event) {
+    alert("lache !");
+}
+
+var cli =document.getElementById("Click1");
+//var divOndrag1 = document.getElementById("ondrag1");
+
+cli.addEventListener("click",Ares);
+//divOndrag1.addEventListener("ondrag",Mars)
+function Ares (event)
+{
+    alert ("tempéte de sang");
+}
+/*function Mars (event)
+{
+    alert("lache !");
+}*/
